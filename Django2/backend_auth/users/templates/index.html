@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div style="background: url('https://media.istockphoto.com/id/1412282189/photo/lock-network-technology-concept.jpg?s=612x612&w=0&k=20&c=hripuxLs9pS_7Ln6YWQR-Ow2_-BU5RdQ4vOY8s1q1iQ=') no-repeat center center; background-size: cover; height: 100vh;">
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <!-- Sidebar -->
+            <div class="col-md-4" style="background-color: rgba(44, 62, 80, 0.9); height: 100%; padding: 20px; color: white;">
+                <h2 style="font-size: 1.8rem; margin-bottom: 30px; text-align: center;">Security Portal</h2>
+                <div class="d-grid gap-3">
+                    <a href="{% url 'register' %}" class="btn btn-primary btn-lg" style="text-align: left;">➤ Register</a>
+                    <a href="{% url 'token_obtain_pair' %}" class="btn btn-success btn-lg" style="text-align: left;">➤ Login</a>
+                    <a href="{% url 'token_refresh' %}" class="btn btn-info btn-lg" style="text-align: left;">➤ Refresh Token</a>
+                    <a href="/admin/" class="btn btn-warning btn-lg" style="text-align: left;">➤ Admin View</a>
+
+
+                    
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-8 d-flex align-items-center justify-content-center">
+                <div style="text-align: center; background-color: rgba(255, 255, 255, 0.85); padding: 20px; border-radius: 15px;">
+                    <h1 style="color: #2c3e50; font-size: 2.5rem; margin-bottom: 20px;">Welcome to the Security Portal</h1>
+                    <p style="font-size: 1.2rem; color: #7f8c8d; margin-bottom: 20px;">Manage your authentication and authorization securely.</p>
+                    <a href="{% url 'register' %}" class="btn btn-outline-primary btn-lg" style="margin-right: 10px;">Register</a>
+                    <a href="{% url 'token_obtain_pair' %}" class="btn btn-outline-success btn-lg" style="margin-left: 10px;">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
