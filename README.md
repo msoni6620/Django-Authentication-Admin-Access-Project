@@ -28,50 +28,7 @@ This project leverages Django’s built-in authentication system while extending
 
 - **SQLite/PostgreSQL/MySQL**: Relational databases used for storing user data and role-based permissions.
 
-## Installation
 
-To get started with this project, follow the steps below to set up the environment and dependencies:
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/your-username/django-authentication-admin-access.git
-    cd django-authentication-admin-access
-    ```
-
-2. **Create a virtual environment** (optional but recommended):
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # For Mac/Linux
-    venv\Scripts\activate  # For Windows
-    ```
-
-3. **Install the dependencies**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Apply migrations**:
-
-    ```bash
-    python manage.py migrate
-    ```
-
-5. **Create a superuser to access the Django Admin**:
-
-    ```bash
-    python manage.py createsuperuser
-    ```
-
-6. **Start the development server**:
-
-    ```bash
-    python manage.py runserver
-    ```
-
-7. Now you can access the application at `http://127.0.0.1:8000/`.
 
 ## Usage
 
