@@ -52,21 +52,7 @@ This project leverages Django’s built-in authentication system while extending
   - Requires authentication (JWT Token).
   - Response: Returns user profile details.
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
-
-Steps to contribute:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b your-branch-name`.
-3. Make your changes.
-4. Commit your changes: `git commit -am 'Add new feature'`.
-5. Push to your branch: `git push origin your-branch-name`.
-6. Submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
